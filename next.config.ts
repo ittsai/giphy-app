@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '*.giphy.com', // Allow all subdomains (media1, media2, media3, etc.)
+        hostname: '*.giphy.com',
       },
     ],
   },
