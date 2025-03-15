@@ -1,0 +1,32 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  flex-basis: 200px;
+}
+
+.form {
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-input {
+  width: 300px;
+  height: 30px;
+}
+
+.form-button {
+}
